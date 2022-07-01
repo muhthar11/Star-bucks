@@ -1,0 +1,71 @@
+.header_above{
+    min-height: 10px;
+    background-color: rgba(0,99,65,1);
+}
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.header_inner_section{
+    color:rgba(0,99,65,1);
+    text-decoration: none;
+}
+.letter_space{
+    letter-spacing: 2px;
+    color: black;
+}
+.section1{
+  background-image: url(../images/Coffee-Hero_tcm87-3963.jpg);
+  width: 100%;
+  height: 500px;
+}
+.section2{
+    background-image: url(../images/Coffee-Finder-Background_tcm87-3968.png);
+    width: 100%;
+    height: 500px;
+  }
+  @media screen and (max-width : 768px) {
+    .section2{
+        height: 800px;
+    }
+  
+
+  }
+  /* @media screen and (min-width : 768px) {
+    #section2_visible{
+        visibility: hidden;
+   }       
+  } */
+ .section2_fontstyle{
+    font-size: 12px;
+    font-family: 'Crete Round', 'Noto Serif', serif;
+ }
+  .section3{
+    background-image: url(../images/bg-how_to_brew-mobile.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+  }
+  .bgcolor{
+    background-color: #f0f0f0;
+  }
+
+  li{
+    list-style-type: none;
+  }
+  .font{
+    font-size: 9px;
+  }
+  .wordmark{
+    max-height: 150px;
+    padding-left: 620px;
+    padding-top: 10px;
+  }
+  .fontsettings{
+    font-family: 'Crete Round', 'Noto Serif', serif;
+  }
+  .footer_below{
+    min-height: 10px;
+    background-color: black;
+}
